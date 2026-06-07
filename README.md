@@ -1,20 +1,21 @@
 <div align="center">
-<h1>realput-bg</h1>
+<h1>Via</h1>
 
 A Bulgarian education guidance app that helps students and parents find real school
 and university paths. Users describe their interests; the app asks clarifying
 questions (starting with age/class), then returns grounded recommendations backed
 by web search and live data.
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/atilatair/realput-bg)](https://goreportcard.com/report/github.com/atilatair/realput-bg)
-[![License](https://img.shields.io/github/license/atilatair/realput-bg)](LICENSE)
-[![Go Version](https://img.shields.io/github/go-mod/go-version/atilatair/realput-bg)](backend/go.mod)
+[![Go Report Card](https://goreportcard.com/badge/github.com/so1icitx/Via)](https://goreportcard.com/report/github.com/so1icitx/Via)
+[![Go Version](https://img.shields.io/github/go-mod/go-version/so1icitx/Via?filename=backend%2Fgo.mod)](https://github.com/so1icitx/Via/blob/main/backend/go.mod)
+[![Go Coverage](https://img.shields.io/badge/Go%20coverage-80.4%25-brightgreen?logo=go&logoColor=white)](#testing)
+[![Go Tests](https://img.shields.io/badge/Go%20tests-168-blue?logo=go&logoColor=white)](#testing)
 
 </div>
 
 ## What it does
 
-**РеалПът БГ** turns a free-text question like *"искам киберсигурност в Пловдив"* into a structured guidance session:
+**Via** turns a free-text question like *"искам киберсигурност в Пловдив"* into a structured guidance session:
 
 1. **Questions** — the AI asks 3–5 follow-ups. The first is always `education_level` (age/class), so the app routes correctly between gymnasium and university paths.
 2. **Research** — the backend searches the web for real institutions, admission dates, fees, and programs.
@@ -154,14 +155,9 @@ open coverage.html
 ## Project layout
 
 ```
-realput-bg/
+via/
 ├── backend/          Go API, migrations, tests
 ├── frontend/         Next.js app
 ├── docker-compose.yml
-├── .env.example
-└── LICENSE
+└── .env.example
 ```
-
-## License
-
-[MIT](LICENSE)
